@@ -1,7 +1,17 @@
 $font-stack: Helvetica, sans-serif;
 $primary-color: rgb(202, 55, 55);
 
-body {
-  font: 200% $font-stack;
+.message {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(98, 98, 215);
+  width: 100%;
+  height: fit-content;
+  border-radius: 20;
+  margin: 20;
+}
+.text {
+  font: 95% $font-stack;
   color: $primary-color;
+  margin-right: 15;
 }

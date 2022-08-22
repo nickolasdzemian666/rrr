@@ -1,9 +1,10 @@
-import '../styles/Message.scss';
+import "../styles/Message.scss";
 
-export const Message = (props, context) =>{
+export const Message = (props, context) => {
   return (
-    <div className="Message">
-          {props.text}
+    <div className="message">
+      <div className="text">{props.item.author}</div>
+      <div className="text">{props.item.text}</div>
     </div>
   );
-}
+};
