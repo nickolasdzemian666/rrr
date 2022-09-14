@@ -1,0 +1,23 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: rgb(202, 55, 55);
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: aqua;
+  align-items: center;
+  justify-content: space-between;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.inputField {
+  align-self: flex-end;
+}
+.input {
+  border: 1px solid rgb(77, 55, 202);
+  margin-right: 20;
+}
